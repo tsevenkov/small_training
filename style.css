@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1025px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body{
+    background-color: #9a9a9a;
+    color: brown;
+}
+
+header {
+    background-color: black;
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    margin-left: 150px;
+}
+
+ul.navigation li{
+    display: inline;
+}
+
+.menu-card{
+    margin-right: 4.6rem;
+}
+
+.menu-card :last-child{
+    margin-right: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.69);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.top_menu{
+    padding-top: 21px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first{
+  margin-top: 60px;
+  margin-right: 335px;
+  opacity: 0.22;
+  font-family: OpenSans;
+  font-size: 33px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #363232;
+}
+
+.logo2{
+  width: 175px;
+  height: 60px;
+}
+
+.two{
+  width: 512px;
+  height: 70px;
+  margin-top: 33px;
+  font-family: Raleway;
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #fff;
+}
+
+.line{
+    size: 3px;
+    width: 74px;
+    align-content: "left";
+    margin-top: 36px;
+}
+
+.light_but{
+    margin-top: 44px;
+    text-decoration: none;
+    width: 135px;
+    height: 42px;
+    text-align: center;
+    font-family: OpenSans;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding-left: 32px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.22);
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 105px;
+    margin-top: 139px;
+    background-color: rgb(255, 255, 255);
+}
+
+.janr{
+  width: 122px;
+  height: 17px;
+  margin-left: 152px;
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #333;
+}
+
+.about{
+    width: 360px;
+    height: 32px;
+    margin-left: 152px;
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: left;
+    color: #86878b;
+    padding-top: 12px;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text{
+    padding-top: 22px;
+}
+
+ul.list li{
+    display: inline;
+}
+
+.ic{
+    margin-top: 29px;
+    margin-left: 120px;
+}
+
+.it{
+    margin-right: 40px;
+}
+
+.it :last-child{
+    margin-right: 0;
+}
+
+a.cool{
+    width: 634px;
+    height: 46px;
+    font-family: FontAwesome;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ccc;
+}
+
+.card{
+    
+    margin-top: -250px;
+    margin-left: 750px;
+}
+
+.form{
+    width: 360px;
+    height: 54px;
+    background-color: #f5f5f5;
+    font-family: OpenSans;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+    padding-top: 18px;
+    padding-left: 52px;
+    
+}
+
+.login{
+
+    background-color: #ffffff;
+    width: 360px;
+    height: 268px;
+    padding-top: 36px;
+    padding-left: 38px;
+    position: relative;
+}
+
+input[type="text"]{
+    padding-left: 14px;
+    padding-bottom: 9px;
+    display: inline-block;
+    width: 285px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    transition: all 0.1s ease-out;
+    box-shadow: 0px 1px 0 0 rgba(0, 0, 1, 0.16);
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #bdbdbd;
+}
+
+#input2{
+    margin-top: 36px;
+}
+
+#input3{
+    margin-top: 36px;
+}
+
+/* .sendbutton{
+    width: 360px;
+    height: 54px;
+    margin-top: -180px;
+    background-color: rgb(201, 125, 25);
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+} */
+
+button.or_btn{
+    width: 360px;
+    height: 54px;
+    background-color: rgb(201, 125, 25);
+    border: 1px solid rgb(201, 125, 25);
+}
+
+a.abc{
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+}
+
+
+
+mark.orange{
+    color: orange;
+    background: none;
+}
